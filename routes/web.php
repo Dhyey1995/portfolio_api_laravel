@@ -20,4 +20,8 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/add_new_project','ProjectController@add_new_project')->name('add_new_project');
 
+Route::get('/add_new_skills','SkillController@add_new_skills')->name('add_new_skills');
+
 Route::resource('project', 'ProjectController');
+
+Route::resource('skill', 'SkillController');

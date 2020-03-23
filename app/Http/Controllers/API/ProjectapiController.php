@@ -26,7 +26,7 @@ class ProjectapiController extends Controller
      */
     public function create()
     {
-        //
+        //  
     }
 
     /**
@@ -48,7 +48,7 @@ class ProjectapiController extends Controller
      */
     public function show($id)
     {
-        //
+        return Project::find($id);
     }
 
     /**

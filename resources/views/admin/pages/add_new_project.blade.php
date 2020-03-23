@@ -42,7 +42,7 @@
 
                             <div class="form-group">
                                 <label>Description:</label>
-                                <textarea name="description" class="summernote"></textarea>
+                                <textarea class="form-control" name="description" rows="10"></textarea>
                             </div>
 
                             <div class="form-group m-b-0">
@@ -65,12 +65,7 @@
 </div>
 <script type="text/javascript">
 	 $(document).ready(function(){
-        $('.summernote').summernote({
-            height: 300,                 // set editor height
-            minHeight: null,             // set minimum height of editor
-            maxHeight: null,             // set maximum height of editor
-            focus: true                 // set focus to editable area after initializing summernote
-        });
+        
     });
  	$( "#add_new_project" ).validate({
 		rules: {

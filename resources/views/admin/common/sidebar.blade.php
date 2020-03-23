@@ -27,6 +27,13 @@
                     </ul>
                 </li>
 
+                <li class="has_sub">
+                    <a href="javascript:void(0);" class="waves-effect"><i class="mdi mdi-map-marker-multiple"></i><span> Skills </span></a>
+                    <ul class="list-unstyled">
+                        <li><a href="{{ route('add_new_skills') }}"> Add new skill </a></li>
+                    </ul>
+                </li>
+
 
                 {{-- <li class="menu-title">Main</li>
                 <li>
