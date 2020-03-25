@@ -25,3 +25,8 @@ Route::get('/add_new_skills','SkillController@add_new_skills')->name('add_new_sk
 Route::resource('project', 'ProjectController');
 
 Route::resource('skill', 'SkillController');
+
+Route::get('/test', function() {
+    \Artisan::call('config:cache');
+    \Artisan::call('config:cache');
+});

@@ -20,3 +20,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 Route::resource('project', 'API\ProjectapiController');
 Route::resource('skill', 'API\SkillsapiController');
+Route::resource('contactus', 'API\ContactusController');
